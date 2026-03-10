@@ -48,7 +48,7 @@ def create_shapes(num_shape):
         
         SHAPES.append(new_shape)
         print("\nФигура создана")
-        
+
     except Exception:
         raise ValueError
 
@@ -59,6 +59,7 @@ def delete_shapes(id_shape: int):
         if num == id_shape:
             SHAPES.pop(num-1)
             print(f"Фигура удалена")
+            return
     else:
         print(f"Фигуры с номером {id_shape} не найдено")
 

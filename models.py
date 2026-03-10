@@ -19,7 +19,7 @@ class Line(Shape):
         self.y_end = y_end
     
     def __str__(self):
-        return f"Линия (({self.x}, {self.y}) ({self.x_end},{self.y_end}))"
+        return f"Линия (({self.x}, {self.y}) ({self.x_end}, {self.y_end}))"
 
 
 class Circle(Shape):
